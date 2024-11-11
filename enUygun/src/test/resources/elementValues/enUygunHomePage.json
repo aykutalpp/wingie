@@ -1,0 +1,44 @@
+[
+  {
+    "key": "homepageCookiesAcceptButton",
+    "value": "onetrust-accept-btn-handler",
+    "type": "id"
+  },
+  {
+    "key": "homepageEnUygunLogo",
+    "value": "[class=\"enuygunLogo_svg__navbar-logo\"]",
+    "type": "css"
+  },
+  {
+    "key": "homepageRoundTripCheckbox",
+    "value": "[data-testid=\"search-round-trip-text\"]",
+    "type": "css"
+  },
+  {
+    "key": "homepageFlightOriginTextBox",
+    "value": "[data-testid=\"endesign-flight-origin-autosuggestion-input\"]",
+    "type": "css"
+  },
+  {
+    "key": "homepageFlightDestinationTextBox",
+    "value": "[data-testid=\"endesign-flight-destination-autosuggestion-input\"]",
+    "type": "css"
+  },
+  {
+    "key": "homepageFlightDepartureDate",
+    "value": "[data-testid=\"enuygun-homepage-flight-departureDate-datepicker-input\"]",
+    "type": "css"
+  },
+  {
+    "key": "homepageFlightReturnDate",
+    "value": "[data-testid=\"enuygun-homepage-flight-returnDate-datepicker-input\"]",
+    "type": "css"
+  },
+  {
+    "key": "homepageFlightSubmitButton",
+    "value": "[data-testid=\"enuygun-homepage-flight-submitButton\"]",
+    "type": "css"
+  }
+]
+
+

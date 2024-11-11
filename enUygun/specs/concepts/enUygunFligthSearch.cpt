@@ -1,0 +1,57 @@
+# Go to enuygun.com and check that you are on the homepage
+* Go to "https://www.enuygun.com" address
+* Check current url starts with "https://www.enuygun.com" address
+* Check if the "homepageEnUygunLogo" element is visible
+* Click on "homepageCookiesAcceptButton" element
+
+# Search a round-trip flight from <flightOrigin> to <flightDestination> between <departureDate> and <returnDate>
+* Click on "homepageRoundTripCheckbox" element
+* Write value <flightOrigin> to element "homepageFlightOriginTextBox"
+* Send "ENTER" key to element "homepageFlightOriginTextBox"
+* Write value <flightDestination> to element "homepageFlightDestinationTextBox"
+* Send "ENTER" key to element "homepageFlightDestinationTextBox"
+* Click on "homepageFlightDepartureDate" element
+* Click on element with attribute "title" and value <departureDate>
+* Click on "homepageFlightReturnDate" element
+* Click on element with attribute "title" and value <returnDate>
+* Click on "homepageFlightSubmitButton" element
+* Check current url starts with "https://www.enuygun.com/ucak-bileti" address
+* Assert that the "loaderIcon" element is disappeared
+
+# Filter the departure and arrival times between 10:00 and 18:00
+* Click on "departureArrivalTimesFilter" element
+* Change the "departureTimeSliderMin" element's "aria-valuenow" attribute's value to "600" with JS
+* Change the "departureTimeSliderMin" element's "style" attribute's value to "left: 41.6956%;" with JS
+* Change the "departureTimeSliderMax" element's "aria-valuenow" attribute's value to "1080" with JS
+* Change the "departureTimeSliderMax" element's "style" attribute's value to "left: 75.0521%;" with JS
+* Change the "departureTimeSliderTrack" element's "style" attribute's value to "visibility: visible; left: 41.6956%; width: 33.3565%;" with JS
+* Click on "departureTimeSliderMin" element
+* Assert that the "loaderIcon" element is disappeared
+* Click on "departureTimeSliderMax" element
+* Assert that the "loaderIcon" element is disappeared
+* Change the "arrivalTimeSliderMin" element's "aria-valuenow" attribute's value to "600" with JS
+* Change the "arrivalTimeSliderMin" element's "style" attribute's value to "left: 41.6956%;" with JS
+* Change the "arrivalTimeSliderMax" element's "aria-valuenow" attribute's value to "1080" with JS
+* Change the "arrivalTimeSliderMax" element's "style" attribute's value to "left: 75.0521%;" with JS
+* Change the "arrivalTimeSliderTrack" element's "style" attribute's value to "visibility: visible; left: 41.6956%; width: 33.3565%;" with JS
+* Click on "arrivalTimeSliderMin" element
+* Assert that the "loaderIcon" element is disappeared
+* Click on "arrivalTimeSliderMax" element
+* Assert that the "loaderIcon" element is disappeared
+
+
+# Filter the airline as Turkish Airlines
+* Click on "airlineFilterHeader" element
+* Assert that the "loaderIcon" element is disappeared
+* Click on "airlineFilterTK" element
+* Assert that the "loaderIcon" element is disappeared
+* Check if the "airlineFilterTKisActive" element is visible
+* Assert that the "flightArilineNames" element's text's are "Türk Hava Yolları"
+
+# Assert that filtered flight's departure and arrival times are between 10:00 and 18:00
+* Check if the "departureTimes" element is visible
+* Check if the "departureTimes" element's texts between "10" and "18"
+
+# Assert that filtered flight price's are in descending order
+* Check if the "flightPrices" element is visible
+* Assert that the "flightPrices" element's text's are in decreasing order
