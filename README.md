@@ -4,7 +4,10 @@ load maven project yap
 
 webdriver klasorunun altina chrome surumun ile uyumlu chromedriver ekle
 
-gauge plugin ide de yuklu olmali
+guncel chromedriver icin asagidaki adresi kullanabilirsin
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+gauge plugin ide de kurulu olmali
 
 specs/HappyPathSenaryolar/enUygunFligthSearch.spec  dosyasinden test kosumu yapilabilir 
 
