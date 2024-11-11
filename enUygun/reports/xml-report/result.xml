@@ -1,8 +1,0 @@
-<testsuites>
-	<testsuite id="1" tests="1" failures="0" package="/Users/aykutalpkivrak/Desktop/enUygun/specs/HappyPathSenaryolar/enUygunFligthSearch.spec" time="24.655" timestamp="2024-11-12T01:36:38" name="enUygun Cases" errors="0" hostname="Aykut-MacBook-Pro.local">
-		<properties></properties>
-		<testcase classname="enUygun Cases" name="case1" time="24.655"></testcase>
-		<system-out></system-out>
-		<system-err></system-err>
-	</testsuite>
-</testsuites>
